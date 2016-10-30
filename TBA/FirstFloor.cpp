@@ -41,7 +41,7 @@ string elevatorRoom(Character player){
 		} else if (player.getDirection() == "n"){ //test direction - north - elevator
 			cout << "The elevator is in front of you.  You press the button to call the elevator to your floor, however the light doesn't"
             " come on.  Right gentlemen?"<<endl;
-            cout << "The light doesn't come on.  You gently press along the outside of the button.  Maybe there's a short.  Right ladies?" << endl;
+            cout << "The light doesn't come on.  You gently press along the outside of the button.  Maybe there's a short." << endl;
             cout << "The light still doesn't show its luminescence.  Frustrated, you press the button a few times with the heel of your hand"
             " before seeing that there is a key card scanner next to the elevator call button.  Good thing there isn't anybody watching, because"
             " you look like an idiot!  Just like your mother said you would!  You need a card key!"<<endl;
@@ -117,8 +117,7 @@ string sec_office(Character player){
 	player.setDirection(direction);
 	while (player.getDirection() != "q"){
 		if (player.getDirection() == "l"){
-			cout << "The office is small and cramped.  I don't mean by all the clutter either, but by the corpulent man sitting behind the security desk.  I don't mean he's got a c"
-			"ouple of extra pounds; I mean his weight could lose weight.  The walls are bare and a shade of off white that only years of poor maintenance can provide. The "
+			cout << "The office is small and cramped.  The walls are bare and a shade of off white that only years of poor maintenance can provide. The "
 			"desk is kept fairly clean; since it is small there isn't a lot of room to place a lot of, I don't know, candy wrappers.  The security officer is watching some"
 			"sort of television series online." << endl;
 			cout << "Please type in a command."  << endl;
